@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}" />
+    <title>MetaVerse</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <a class="header__logo" href="">
+          <img src="{{ url_for('static', filename='./img/logo.svg') }}" alt="" />
+        </a>
+        <span class="header__navbar">
+          <a class="navbar__item">Home</a>
+          <a class="navbar__item">NFT’s</a>
+          <a class="navbar__item">benefits</a>
+          <a class="navbar__item">Resources</a>
+          <a class="navbar__item">Contact</a>
+        </span>
+      </div>
+    </header>
+    <div id="main">
+      <div class="hero">
+        <h1 class="hero__title">experIEnce the</h1>
+        <h1 class="hero__sub_title">metaverse</h1>
+        <p class="hero__text">
+          Network of 3D virtual worlds <br/>
+          focused on social connection
+        </p>
+        <div class="hero__bottom">
+          <img class="girl__img" src="{{ url_for('static', filename='./img/Rectangle.png') }}" width="200px" alt="">
+          <h1 class="btn__text">Know more</h1>
+        </div>
+        <p class="hero__follow"><strong>50M+</strong><br />Experiencing it</p>
+        <div class="hero__img"><img src="{{ url_for('static', filename='./img/adam.png') }}" alt="" /></div>
+        <div class="hero__girl">
+            <img class="girl__img" src="{{ url_for('static', filename='./img/woman.png') }} " width="200px" alt="">
+            <p class="woman__text"><strong>Customize your look</strong><br><br>Your metaverse digital identity</p>
+            <div class="play__icon">
+                <img class="img__play" src="{{ url_for('static', filename='./img/play.svg') }}" alt="">
+            </div>
+        </div>
+        <div class="hero__polygon_img"><img src="{{ url_for('static', filename='./img/Subtract.png') }}" alt=""></div>
+      </div>
+    </div>
+  </body>
+</html>

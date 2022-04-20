@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: 0;
+}
+#header {
+  position: relative;
+  background: url("./img/bg.png") no-repeat center/cover;
+  height: 100vh;
+}
+.header {
+  padding: 40px 0;
+}
+.header__icon {
+  padding: 10px 8px 5px 8px;
+  border: 1px solid #9f7ff3;
+  border-radius: 4px;
+}
+.navbar__item {
+  margin: 0 37px;
+  font-family: "Nexa", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5715px;
+  line-height: 16px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header__navbar {
+  margin-left: 79px;
+  position: fixed;
+}
+.header__line {
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  margin-right: 20px;
+  background: #ffffff;
+}
+
+.hero__title {
+  position: absolute;
+  /* top: 1250px; */
+  left: 50px;
+  bottom: 570px;
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68.7982px;
+  line-height: 83px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero__sub_title {
+  position: absolute;
+  left: 50px;
+  bottom: 500px;
+  font-family: "Nexa",sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68.7982px;
+  line-height: 83px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  /* border: 2.44587px solid #9F7FF3; */
+  text-shadow:
+        0px 2px 2px #9F7FF3,
+        0px -2px 2px #9F7FF3,
+        -2px 0px 2px #9F7FF3,
+        2px 0px 2px #9F7FF3;
+
+    }
+.hero__text{
+  position: absolute;
+  left: 55px;
+  bottom: 420px;
+  font-size: 19.3076px;
+  color: #ffffff;
+}
+.hero__bottom{
+  position: absolute;
+  left: 50px;
+  bottom: 300px;
+  width: 190.97px;
+height: 61.07px;
+border-radius: 7.75515px;
+/* background: #ffffff; */
+}
+.btn__text{
+  z-index: 2;
+  position: absolute;
+bottom: 9px;
+left: 19px;
+
+}
+.hero__follow{
+  position: absolute;
+  bottom: 320px;
+  left: 280px;
+  color: #ffffff;
+}
+.hero__img{
+  position: absolute;
+  bottom: 0px;
+  left: 400px;
+  /* right: 0px; */
+  /* top: 0px; */
+}
+.hero__girl{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  position: absolute;
+  /* background-color:rgba(0, 0, 0, 0.8); */
+  bottom: 50px;
+  left: 80px;
+  border-radius: 10px;
+  height: auto;
+  width: 210px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0px 3.87758px 41.684px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(196.787px);
+}
+.woman__text{
+  color: white;
+}
+.girl__img{
+  border-radius: 20px;
+}
+.hero__polygon_img{
+  position: absolute;
+  bottom: 160px;
+  left: 800px;
+}
+.play__icon{
+  position: absolute;
+  bottom: 55px;
+  left: 155px;
+  height: 35px;
+  width: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: red;
+}
+.img__play{
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
